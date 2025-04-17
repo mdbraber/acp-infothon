@@ -1,0 +1,89 @@
+@prefix dummy: <http://data.dummyzorg.nl/> .
+@prefix onz-g: <http://purl.org/ozo/onz-g#> .
+@prefix onz-zorg: <http://purl.org/ozo/onz-zorg#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dummy:proces_0 a onz-zorg:ACPProces ;
+    onz-g:hasOutput dummy:decision_0 ;
+    onz-g:hasParticipant dummy:Client_N90748a30df984605a5fc54a9e7ead0ab ;
+    onz-g:hasPerdurantLocation dummy:Locatie_BG_Links ;
+    onz-g:hasTime [ ] .
+
+dummy:proces_1 a onz-zorg:ACPProces ;
+    onz-g:hasOutput dummy:decision_1 ;
+    onz-g:hasParticipant dummy:Client_N88b881bc725348ef9ec3ca3c4b3337e0 ;
+    onz-g:hasPerdurantLocation dummy:Locatie_BG_Rechts ;
+    onz-g:hasTime [ ] .
+
+dummy:proces_2 a onz-zorg:ACPProces ;
+    onz-g:hasOutput dummy:decision_2 ;
+    onz-g:hasParticipant dummy:Client_N9a4c0312bd5d41e68833cc3b4c821685 ;
+    onz-g:hasPerdurantLocation dummy:Locatie_Begane_Grond ;
+    onz-g:hasTime [ ] .
+
+dummy:proces_3 a onz-zorg:ACPProces ;
+    onz-g:hasOutput dummy:decision_3 ;
+    onz-g:hasParticipant dummy:Client_Nde9600a502f54c01b16350bb7d37fc12 ;
+    onz-g:hasPerdurantLocation dummy:Locatie_De_Beuk_1 ;
+    onz-g:hasTime [ ] .
+
+dummy:proces_4 a onz-zorg:ACPProces ;
+    onz-g:hasOutput dummy:decision_4 ;
+    onz-g:hasParticipant dummy:Client_N77c82906c1a64fb2a81636883924b191 ;
+    onz-g:hasPerdurantLocation dummy:Locatie_De_Beuk_2 ;
+    onz-g:hasTime [ ] .
+
+dummy:proces_5 a onz-zorg:ACPProces ;
+    onz-g:hasOutput dummy:decision_5 ;
+    onz-g:hasParticipant dummy:Client_N6b25701dbfb64b6cb246ef7cf850514f ;
+    onz-g:hasPerdurantLocation dummy:Locatie_Grotestraat_17 ;
+    onz-g:hasTime [ ] .
+
+dummy:proces_6 a onz-zorg:ACPProces ;
+    onz-g:hasOutput dummy:decision_6 ;
+    onz-g:hasParticipant dummy:Client_N36710bf84e704db5be86845685118575 ;
+    onz-g:hasPerdurantLocation dummy:Locatie_Grotestraat_213 ;
+    onz-g:hasTime [ ] .
+
+dummy:decision_0 a onz-zorg:CPRInformationObject ;
+    rdfs:label "Full CPR"^^xsd:string ;
+    onz-g:hasAssessmentValueResult <http://purl.bioontology.org/ontology/SNOMEDCT/373066001> ;
+    onz-g:hasDataValue "Full CPR"^^xsd:string ;
+    onz-g:isAbout dummy:Client_N90748a30df984605a5fc54a9e7ead0ab .
+
+dummy:decision_1 a onz-zorg:CPRInformationObject ;
+    rdfs:label "No CPR"^^xsd:string ;
+    onz-g:hasAssessmentValueResult <http://purl.bioontology.org/ontology/SNOMEDCT/373067005> ;
+    onz-g:hasDataValue "No CPR"^^xsd:string ;
+    onz-g:isAbout dummy:Client_N88b881bc725348ef9ec3ca3c4b3337e0 .
+
+dummy:decision_2 a onz-zorg:CPRInformationObject ;
+    rdfs:label "test evelien"^^xsd:string ;
+    onz-g:hasDataValue "test evelien"^^xsd:string ;
+    onz-g:isAbout dummy:Client_N9a4c0312bd5d41e68833cc3b4c821685 .
+
+dummy:decision_3 a onz-zorg:CPRInformationObject ;
+    rdfs:label "Full CPR"^^xsd:string ;
+    onz-g:hasAssessmentValueResult <http://purl.bioontology.org/ontology/SNOMEDCT/373066001> ;
+    onz-g:hasDataValue "Full CPR"^^xsd:string ;
+    onz-g:isAbout dummy:Client_Nde9600a502f54c01b16350bb7d37fc12 .
+
+dummy:decision_4 a onz-zorg:CPRInformationObject ;
+    rdfs:label "Limited CPR"^^xsd:string ;
+    onz-g:hasAssessmentValueResult onz-zorg:LimitedCPR ;
+    onz-g:hasDataValue "Limited CPR"^^xsd:string ;
+    onz-g:isAbout dummy:Client_N77c82906c1a64fb2a81636883924b191 .
+
+dummy:decision_5 a onz-zorg:CPRInformationObject ;
+    rdfs:label "No CPR"^^xsd:string ;
+    onz-g:hasAssessmentValueResult <http://purl.bioontology.org/ontology/SNOMEDCT/373067005> ;
+    onz-g:hasDataValue "No CPR"^^xsd:string ;
+    onz-g:isAbout dummy:Client_N6b25701dbfb64b6cb246ef7cf850514f .
+
+dummy:decision_6 a onz-zorg:CPRInformationObject ;
+    rdfs:label "Full CPR"^^xsd:string ;
+    onz-g:hasAssessmentValueResult <http://purl.bioontology.org/ontology/SNOMEDCT/373066001> ;
+    onz-g:hasDataValue "Full CPR"^^xsd:string ;
+    onz-g:isAbout dummy:Client_N36710bf84e704db5be86845685118575 .
+

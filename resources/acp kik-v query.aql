@@ -1,0 +1,7 @@
+SELECT c,
+       e/ehr_id/value 
+FROM EHR e  
+CONTAINS COMPOSITION c[openEHR-EHR-COMPOSITION.care_plan.v0]  
+CONTAINS EVALUATION k[openEHR-EHR-EVALUATION.advance_intervention_decisions.v1]  
+OFFSET 0  
+LIMIT 10 

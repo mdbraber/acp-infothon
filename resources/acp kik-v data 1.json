@@ -1,0 +1,33 @@
+{
+ "individueel_zorgplan_palliatieve_zorg": {
+  "behandelaanwijzing": [
+   {
+    "advance_intervention_decisions": [
+     {
+      "cpr_decision": [
+       {
+        "|code": "at0012",
+        "|value": "No CPR"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "ctx": {
+  "language": "en",
+  "territory": "SI",
+  "generic_fields": {},
+  "tags": [
+   {
+    "tag": "formName",
+    "value": "ACP test kik-v"
+   },
+   {
+    "tag": "formVersion",
+    "value": "1.0.0"
+   }
+  ]
+ }
+}

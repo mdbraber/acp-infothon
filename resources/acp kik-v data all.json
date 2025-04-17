@@ -1,0 +1,1086 @@
+[
+    {
+        "#0": {
+            "@class": "COMPOSITION",
+            "name": {
+                "@class": "DV_TEXT",
+                "value": "Individueel zorgplan palliatieve zorg"
+            },
+            "uid": {
+                "@class": "OBJECT_VERSION_ID",
+                "value": "473be554-b726-427a-bd20-2ff2781b07cb::info_joostholslag_nl::1"
+            },
+            "archetype_details": {
+                "@class": "ARCHETYPED",
+                "archetype_id": {
+                    "@class": "ARCHETYPE_ID",
+                    "value": "openEHR-EHR-COMPOSITION.care_plan.v0"
+                },
+                "template_id": {
+                    "@class": "TEMPLATE_ID",
+                    "value": "ACP-DUTCH"
+                },
+                "rm_version": "1.1.0"
+            },
+            "feeder_audit": {
+                "@class": "FEEDER_AUDIT",
+                "original_content": {
+                    "@class": "DV_PARSABLE",
+                    "value": "{}",
+                    "formalism": "application/json"
+                },
+                "originating_system_audit": {
+                    "@class": "FEEDER_AUDIT_DETAILS",
+                    "system_id": "FormRenderer"
+                }
+            },
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.care_plan.v0",
+            "language": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "SI"
+            },
+            "category": {
+                "@class": "DV_CODED_TEXT",
+                "value": "persistent",
+                "defining_code": {
+                    "@class": "CODE_PHRASE",
+                    "terminology_id": {
+                        "@class": "TERMINOLOGY_ID",
+                        "value": "openehr"
+                    },
+                    "code_string": "431"
+                }
+            },
+            "composer": {
+                "@class": "PARTY_IDENTIFIED",
+                "name": "info@joostholslag.nl"
+            },
+            "content": [
+                {
+                    "@class": "SECTION",
+                    "name": {
+                        "@class": "DV_TEXT",
+                        "value": "Behandelaanwijzing"
+                    },
+                    "archetype_details": {
+                        "@class": "ARCHETYPED",
+                        "archetype_id": {
+                            "@class": "ARCHETYPE_ID",
+                            "value": "openEHR-EHR-SECTION.adhoc.v1"
+                        },
+                        "rm_version": "1.1.0"
+                    },
+                    "archetype_node_id": "openEHR-EHR-SECTION.adhoc.v1",
+                    "items": [
+                        {
+                            "@class": "EVALUATION",
+                            "name": {
+                                "@class": "DV_TEXT",
+                                "value": "Advance intervention decisions"
+                            },
+                            "archetype_details": {
+                                "@class": "ARCHETYPED",
+                                "archetype_id": {
+                                    "@class": "ARCHETYPE_ID",
+                                    "value": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1"
+                                },
+                                "rm_version": "1.1.0"
+                            },
+                            "archetype_node_id": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1",
+                            "language": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "ISO_639-1"
+                                },
+                                "code_string": "en"
+                            },
+                            "encoding": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "IANA_character-sets"
+                                },
+                                "code_string": "UTF-8"
+                            },
+                            "subject": {
+                                "@class": "PARTY_SELF"
+                            },
+                            "data": {
+                                "@class": "ITEM_TREE",
+                                "name": {
+                                    "@class": "DV_TEXT",
+                                    "value": "Tree"
+                                },
+                                "archetype_node_id": "at0001",
+                                "items": [
+                                    {
+                                        "@class": "ELEMENT",
+                                        "name": {
+                                            "@class": "DV_TEXT",
+                                            "value": "CPR decision"
+                                        },
+                                        "archetype_node_id": "at0009",
+                                        "value": {
+                                            "@class": "DV_CODED_TEXT",
+                                            "value": "Full CPR",
+                                            "defining_code": {
+                                                "@class": "CODE_PHRASE",
+                                                "terminology_id": {
+                                                    "@class": "TERMINOLOGY_ID",
+                                                    "value": "local"
+                                                },
+                                                "code_string": "at0010"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "#1": "9b30e7e4-c807-4593-ae34-196b74db1e24"
+    },
+    {
+        "#0": {
+            "@class": "COMPOSITION",
+            "name": {
+                "@class": "DV_TEXT",
+                "value": "Individueel zorgplan palliatieve zorg"
+            },
+            "uid": {
+                "@class": "OBJECT_VERSION_ID",
+                "value": "aff18dd0-2339-4442-a2c1-d8c00f604887::info_joostholslag_nl::1"
+            },
+            "archetype_details": {
+                "@class": "ARCHETYPED",
+                "archetype_id": {
+                    "@class": "ARCHETYPE_ID",
+                    "value": "openEHR-EHR-COMPOSITION.care_plan.v0"
+                },
+                "template_id": {
+                    "@class": "TEMPLATE_ID",
+                    "value": "ACP-DUTCH"
+                },
+                "rm_version": "1.1.0"
+            },
+            "feeder_audit": {
+                "@class": "FEEDER_AUDIT",
+                "original_content": {
+                    "@class": "DV_PARSABLE",
+                    "value": "{}",
+                    "formalism": "application/json"
+                },
+                "originating_system_audit": {
+                    "@class": "FEEDER_AUDIT_DETAILS",
+                    "system_id": "FormRenderer"
+                }
+            },
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.care_plan.v0",
+            "language": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "SI"
+            },
+            "category": {
+                "@class": "DV_CODED_TEXT",
+                "value": "persistent",
+                "defining_code": {
+                    "@class": "CODE_PHRASE",
+                    "terminology_id": {
+                        "@class": "TERMINOLOGY_ID",
+                        "value": "openehr"
+                    },
+                    "code_string": "431"
+                }
+            },
+            "composer": {
+                "@class": "PARTY_IDENTIFIED",
+                "name": "info@joostholslag.nl"
+            },
+            "content": [
+                {
+                    "@class": "SECTION",
+                    "name": {
+                        "@class": "DV_TEXT",
+                        "value": "Behandelaanwijzing"
+                    },
+                    "archetype_details": {
+                        "@class": "ARCHETYPED",
+                        "archetype_id": {
+                            "@class": "ARCHETYPE_ID",
+                            "value": "openEHR-EHR-SECTION.adhoc.v1"
+                        },
+                        "rm_version": "1.1.0"
+                    },
+                    "archetype_node_id": "openEHR-EHR-SECTION.adhoc.v1",
+                    "items": [
+                        {
+                            "@class": "EVALUATION",
+                            "name": {
+                                "@class": "DV_TEXT",
+                                "value": "Advance intervention decisions"
+                            },
+                            "archetype_details": {
+                                "@class": "ARCHETYPED",
+                                "archetype_id": {
+                                    "@class": "ARCHETYPE_ID",
+                                    "value": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1"
+                                },
+                                "rm_version": "1.1.0"
+                            },
+                            "archetype_node_id": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1",
+                            "language": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "ISO_639-1"
+                                },
+                                "code_string": "en"
+                            },
+                            "encoding": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "IANA_character-sets"
+                                },
+                                "code_string": "UTF-8"
+                            },
+                            "subject": {
+                                "@class": "PARTY_SELF"
+                            },
+                            "data": {
+                                "@class": "ITEM_TREE",
+                                "name": {
+                                    "@class": "DV_TEXT",
+                                    "value": "Tree"
+                                },
+                                "archetype_node_id": "at0001",
+                                "items": [
+                                    {
+                                        "@class": "ELEMENT",
+                                        "name": {
+                                            "@class": "DV_TEXT",
+                                            "value": "CPR decision"
+                                        },
+                                        "archetype_node_id": "at0009",
+                                        "value": {
+                                            "@class": "DV_CODED_TEXT",
+                                            "value": "No CPR",
+                                            "defining_code": {
+                                                "@class": "CODE_PHRASE",
+                                                "terminology_id": {
+                                                    "@class": "TERMINOLOGY_ID",
+                                                    "value": "local"
+                                                },
+                                                "code_string": "at0012"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "#1": "313b6032-1f87-4c54-9ef5-759c14595a80"
+    },
+    {
+        "#0": {
+            "@class": "COMPOSITION",
+            "name": {
+                "@class": "DV_TEXT",
+                "value": "Individueel zorgplan palliatieve zorg"
+            },
+            "uid": {
+                "@class": "OBJECT_VERSION_ID",
+                "value": "74662594-63e8-49d2-8ace-783954138543::info_joostholslag_nl::1"
+            },
+            "archetype_details": {
+                "@class": "ARCHETYPED",
+                "archetype_id": {
+                    "@class": "ARCHETYPE_ID",
+                    "value": "openEHR-EHR-COMPOSITION.care_plan.v0"
+                },
+                "template_id": {
+                    "@class": "TEMPLATE_ID",
+                    "value": "ACP-DUTCH"
+                },
+                "rm_version": "1.1.0"
+            },
+            "feeder_audit": {
+                "@class": "FEEDER_AUDIT",
+                "original_content": {
+                    "@class": "DV_PARSABLE",
+                    "value": "{}",
+                    "formalism": "application/json"
+                },
+                "originating_system_audit": {
+                    "@class": "FEEDER_AUDIT_DETAILS",
+                    "system_id": "FormRenderer"
+                }
+            },
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.care_plan.v0",
+            "language": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "SI"
+            },
+            "category": {
+                "@class": "DV_CODED_TEXT",
+                "value": "persistent",
+                "defining_code": {
+                    "@class": "CODE_PHRASE",
+                    "terminology_id": {
+                        "@class": "TERMINOLOGY_ID",
+                        "value": "openehr"
+                    },
+                    "code_string": "431"
+                }
+            },
+            "composer": {
+                "@class": "PARTY_IDENTIFIED",
+                "name": "info@joostholslag.nl"
+            },
+            "content": [
+                {
+                    "@class": "SECTION",
+                    "name": {
+                        "@class": "DV_TEXT",
+                        "value": "Behandelaanwijzing"
+                    },
+                    "archetype_details": {
+                        "@class": "ARCHETYPED",
+                        "archetype_id": {
+                            "@class": "ARCHETYPE_ID",
+                            "value": "openEHR-EHR-SECTION.adhoc.v1"
+                        },
+                        "rm_version": "1.1.0"
+                    },
+                    "archetype_node_id": "openEHR-EHR-SECTION.adhoc.v1",
+                    "items": [
+                        {
+                            "@class": "EVALUATION",
+                            "name": {
+                                "@class": "DV_TEXT",
+                                "value": "Advance intervention decisions"
+                            },
+                            "archetype_details": {
+                                "@class": "ARCHETYPED",
+                                "archetype_id": {
+                                    "@class": "ARCHETYPE_ID",
+                                    "value": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1"
+                                },
+                                "rm_version": "1.1.0"
+                            },
+                            "archetype_node_id": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1",
+                            "language": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "ISO_639-1"
+                                },
+                                "code_string": "en"
+                            },
+                            "encoding": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "IANA_character-sets"
+                                },
+                                "code_string": "UTF-8"
+                            },
+                            "subject": {
+                                "@class": "PARTY_SELF"
+                            },
+                            "data": {
+                                "@class": "ITEM_TREE",
+                                "name": {
+                                    "@class": "DV_TEXT",
+                                    "value": "Tree"
+                                },
+                                "archetype_node_id": "at0001",
+                                "items": [
+                                    {
+                                        "@class": "ELEMENT",
+                                        "name": {
+                                            "@class": "DV_TEXT",
+                                            "value": "CPR decision"
+                                        },
+                                        "archetype_node_id": "at0009",
+                                        "value": {
+                                            "@class": "DV_TEXT",
+                                            "value": "test evelien"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "#1": "479d8841-3a54-4f34-9cb2-d392fb0b4d2b"
+    },
+    {
+        "#0": {
+            "@class": "COMPOSITION",
+            "name": {
+                "@class": "DV_TEXT",
+                "value": "Individueel zorgplan palliatieve zorg"
+            },
+            "uid": {
+                "@class": "OBJECT_VERSION_ID",
+                "value": "2785ebef-003e-4a32-b4a8-6697777d7fcb::info_joostholslag_nl::1"
+            },
+            "archetype_details": {
+                "@class": "ARCHETYPED",
+                "archetype_id": {
+                    "@class": "ARCHETYPE_ID",
+                    "value": "openEHR-EHR-COMPOSITION.care_plan.v0"
+                },
+                "template_id": {
+                    "@class": "TEMPLATE_ID",
+                    "value": "ACP-DUTCH"
+                },
+                "rm_version": "1.1.0"
+            },
+            "feeder_audit": {
+                "@class": "FEEDER_AUDIT",
+                "original_content": {
+                    "@class": "DV_PARSABLE",
+                    "value": "{}",
+                    "formalism": "application/json"
+                },
+                "originating_system_audit": {
+                    "@class": "FEEDER_AUDIT_DETAILS",
+                    "system_id": "FormRenderer"
+                }
+            },
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.care_plan.v0",
+            "language": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "SI"
+            },
+            "category": {
+                "@class": "DV_CODED_TEXT",
+                "value": "persistent",
+                "defining_code": {
+                    "@class": "CODE_PHRASE",
+                    "terminology_id": {
+                        "@class": "TERMINOLOGY_ID",
+                        "value": "openehr"
+                    },
+                    "code_string": "431"
+                }
+            },
+            "composer": {
+                "@class": "PARTY_IDENTIFIED",
+                "name": "info@joostholslag.nl"
+            },
+            "content": [
+                {
+                    "@class": "SECTION",
+                    "name": {
+                        "@class": "DV_TEXT",
+                        "value": "Behandelaanwijzing"
+                    },
+                    "archetype_details": {
+                        "@class": "ARCHETYPED",
+                        "archetype_id": {
+                            "@class": "ARCHETYPE_ID",
+                            "value": "openEHR-EHR-SECTION.adhoc.v1"
+                        },
+                        "rm_version": "1.1.0"
+                    },
+                    "archetype_node_id": "openEHR-EHR-SECTION.adhoc.v1",
+                    "items": [
+                        {
+                            "@class": "EVALUATION",
+                            "name": {
+                                "@class": "DV_TEXT",
+                                "value": "Advance intervention decisions"
+                            },
+                            "archetype_details": {
+                                "@class": "ARCHETYPED",
+                                "archetype_id": {
+                                    "@class": "ARCHETYPE_ID",
+                                    "value": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1"
+                                },
+                                "rm_version": "1.1.0"
+                            },
+                            "archetype_node_id": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1",
+                            "language": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "ISO_639-1"
+                                },
+                                "code_string": "en"
+                            },
+                            "encoding": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "IANA_character-sets"
+                                },
+                                "code_string": "UTF-8"
+                            },
+                            "subject": {
+                                "@class": "PARTY_SELF"
+                            },
+                            "data": {
+                                "@class": "ITEM_TREE",
+                                "name": {
+                                    "@class": "DV_TEXT",
+                                    "value": "Tree"
+                                },
+                                "archetype_node_id": "at0001",
+                                "items": [
+                                    {
+                                        "@class": "ELEMENT",
+                                        "name": {
+                                            "@class": "DV_TEXT",
+                                            "value": "CPR decision"
+                                        },
+                                        "archetype_node_id": "at0009",
+                                        "value": {
+                                            "@class": "DV_CODED_TEXT",
+                                            "value": "Full CPR",
+                                            "defining_code": {
+                                                "@class": "CODE_PHRASE",
+                                                "terminology_id": {
+                                                    "@class": "TERMINOLOGY_ID",
+                                                    "value": "local"
+                                                },
+                                                "code_string": "at0010"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "#1": "33cdbd8b-5bb9-4104-b0a8-cc08bd597d0e"
+    },
+    {
+        "#0": {
+            "@class": "COMPOSITION",
+            "name": {
+                "@class": "DV_TEXT",
+                "value": "Individueel zorgplan palliatieve zorg"
+            },
+            "uid": {
+                "@class": "OBJECT_VERSION_ID",
+                "value": "8045f732-6627-4a2b-b79c-1f9e98bf1dc0::info_joostholslag_nl::1"
+            },
+            "archetype_details": {
+                "@class": "ARCHETYPED",
+                "archetype_id": {
+                    "@class": "ARCHETYPE_ID",
+                    "value": "openEHR-EHR-COMPOSITION.care_plan.v0"
+                },
+                "template_id": {
+                    "@class": "TEMPLATE_ID",
+                    "value": "ACP-DUTCH"
+                },
+                "rm_version": "1.1.0"
+            },
+            "feeder_audit": {
+                "@class": "FEEDER_AUDIT",
+                "original_content": {
+                    "@class": "DV_PARSABLE",
+                    "value": "{}",
+                    "formalism": "application/json"
+                },
+                "originating_system_audit": {
+                    "@class": "FEEDER_AUDIT_DETAILS",
+                    "system_id": "FormRenderer"
+                }
+            },
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.care_plan.v0",
+            "language": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "SI"
+            },
+            "category": {
+                "@class": "DV_CODED_TEXT",
+                "value": "persistent",
+                "defining_code": {
+                    "@class": "CODE_PHRASE",
+                    "terminology_id": {
+                        "@class": "TERMINOLOGY_ID",
+                        "value": "openehr"
+                    },
+                    "code_string": "431"
+                }
+            },
+            "composer": {
+                "@class": "PARTY_IDENTIFIED",
+                "name": "info@joostholslag.nl"
+            },
+            "content": [
+                {
+                    "@class": "SECTION",
+                    "name": {
+                        "@class": "DV_TEXT",
+                        "value": "Behandelaanwijzing"
+                    },
+                    "archetype_details": {
+                        "@class": "ARCHETYPED",
+                        "archetype_id": {
+                            "@class": "ARCHETYPE_ID",
+                            "value": "openEHR-EHR-SECTION.adhoc.v1"
+                        },
+                        "rm_version": "1.1.0"
+                    },
+                    "archetype_node_id": "openEHR-EHR-SECTION.adhoc.v1",
+                    "items": [
+                        {
+                            "@class": "EVALUATION",
+                            "name": {
+                                "@class": "DV_TEXT",
+                                "value": "Advance intervention decisions"
+                            },
+                            "archetype_details": {
+                                "@class": "ARCHETYPED",
+                                "archetype_id": {
+                                    "@class": "ARCHETYPE_ID",
+                                    "value": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1"
+                                },
+                                "rm_version": "1.1.0"
+                            },
+                            "archetype_node_id": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1",
+                            "language": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "ISO_639-1"
+                                },
+                                "code_string": "en"
+                            },
+                            "encoding": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "IANA_character-sets"
+                                },
+                                "code_string": "UTF-8"
+                            },
+                            "subject": {
+                                "@class": "PARTY_SELF"
+                            },
+                            "data": {
+                                "@class": "ITEM_TREE",
+                                "name": {
+                                    "@class": "DV_TEXT",
+                                    "value": "Tree"
+                                },
+                                "archetype_node_id": "at0001",
+                                "items": [
+                                    {
+                                        "@class": "ELEMENT",
+                                        "name": {
+                                            "@class": "DV_TEXT",
+                                            "value": "CPR decision"
+                                        },
+                                        "archetype_node_id": "at0009",
+                                        "value": {
+                                            "@class": "DV_CODED_TEXT",
+                                            "value": "Limited CPR",
+                                            "defining_code": {
+                                                "@class": "CODE_PHRASE",
+                                                "terminology_id": {
+                                                    "@class": "TERMINOLOGY_ID",
+                                                    "value": "local"
+                                                },
+                                                "code_string": "at0011"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "#1": "5ee8dba8-dc7e-4bd7-b743-c42be5c84e15"
+    },
+    {
+        "#0": {
+            "@class": "COMPOSITION",
+            "name": {
+                "@class": "DV_TEXT",
+                "value": "Individueel zorgplan palliatieve zorg"
+            },
+            "uid": {
+                "@class": "OBJECT_VERSION_ID",
+                "value": "224cedde-ea96-4ca4-8d67-a98d0398a83c::info_joostholslag_nl::1"
+            },
+            "archetype_details": {
+                "@class": "ARCHETYPED",
+                "archetype_id": {
+                    "@class": "ARCHETYPE_ID",
+                    "value": "openEHR-EHR-COMPOSITION.care_plan.v0"
+                },
+                "template_id": {
+                    "@class": "TEMPLATE_ID",
+                    "value": "ACP-DUTCH"
+                },
+                "rm_version": "1.1.0"
+            },
+            "feeder_audit": {
+                "@class": "FEEDER_AUDIT",
+                "original_content": {
+                    "@class": "DV_PARSABLE",
+                    "value": "{}",
+                    "formalism": "application/json"
+                },
+                "originating_system_audit": {
+                    "@class": "FEEDER_AUDIT_DETAILS",
+                    "system_id": "FormRenderer"
+                }
+            },
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.care_plan.v0",
+            "language": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "SI"
+            },
+            "category": {
+                "@class": "DV_CODED_TEXT",
+                "value": "persistent",
+                "defining_code": {
+                    "@class": "CODE_PHRASE",
+                    "terminology_id": {
+                        "@class": "TERMINOLOGY_ID",
+                        "value": "openehr"
+                    },
+                    "code_string": "431"
+                }
+            },
+            "composer": {
+                "@class": "PARTY_IDENTIFIED",
+                "name": "info@joostholslag.nl"
+            },
+            "content": [
+                {
+                    "@class": "SECTION",
+                    "name": {
+                        "@class": "DV_TEXT",
+                        "value": "Behandelaanwijzing"
+                    },
+                    "archetype_details": {
+                        "@class": "ARCHETYPED",
+                        "archetype_id": {
+                            "@class": "ARCHETYPE_ID",
+                            "value": "openEHR-EHR-SECTION.adhoc.v1"
+                        },
+                        "rm_version": "1.1.0"
+                    },
+                    "archetype_node_id": "openEHR-EHR-SECTION.adhoc.v1",
+                    "items": [
+                        {
+                            "@class": "EVALUATION",
+                            "name": {
+                                "@class": "DV_TEXT",
+                                "value": "Advance intervention decisions"
+                            },
+                            "archetype_details": {
+                                "@class": "ARCHETYPED",
+                                "archetype_id": {
+                                    "@class": "ARCHETYPE_ID",
+                                    "value": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1"
+                                },
+                                "rm_version": "1.1.0"
+                            },
+                            "archetype_node_id": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1",
+                            "language": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "ISO_639-1"
+                                },
+                                "code_string": "en"
+                            },
+                            "encoding": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "IANA_character-sets"
+                                },
+                                "code_string": "UTF-8"
+                            },
+                            "subject": {
+                                "@class": "PARTY_SELF"
+                            },
+                            "data": {
+                                "@class": "ITEM_TREE",
+                                "name": {
+                                    "@class": "DV_TEXT",
+                                    "value": "Tree"
+                                },
+                                "archetype_node_id": "at0001",
+                                "items": [
+                                    {
+                                        "@class": "ELEMENT",
+                                        "name": {
+                                            "@class": "DV_TEXT",
+                                            "value": "CPR decision"
+                                        },
+                                        "archetype_node_id": "at0009",
+                                        "value": {
+                                            "@class": "DV_CODED_TEXT",
+                                            "value": "No CPR",
+                                            "defining_code": {
+                                                "@class": "CODE_PHRASE",
+                                                "terminology_id": {
+                                                    "@class": "TERMINOLOGY_ID",
+                                                    "value": "local"
+                                                },
+                                                "code_string": "at0012"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "#1": "4dcd3a71-4b02-440c-a501-fdd43241c58e"
+    },
+    {
+        "#0": {
+            "@class": "COMPOSITION",
+            "name": {
+                "@class": "DV_TEXT",
+                "value": "Individueel zorgplan palliatieve zorg"
+            },
+            "uid": {
+                "@class": "OBJECT_VERSION_ID",
+                "value": "ee827d86-f1f1-46b1-b5ee-1a5a56ddd8d4::info_joostholslag_nl::1"
+            },
+            "archetype_details": {
+                "@class": "ARCHETYPED",
+                "archetype_id": {
+                    "@class": "ARCHETYPE_ID",
+                    "value": "openEHR-EHR-COMPOSITION.care_plan.v0"
+                },
+                "template_id": {
+                    "@class": "TEMPLATE_ID",
+                    "value": "ACP-DUTCH"
+                },
+                "rm_version": "1.1.0"
+            },
+            "feeder_audit": {
+                "@class": "FEEDER_AUDIT",
+                "original_content": {
+                    "@class": "DV_PARSABLE",
+                    "value": "{}",
+                    "formalism": "application/json"
+                },
+                "originating_system_audit": {
+                    "@class": "FEEDER_AUDIT_DETAILS",
+                    "system_id": "FormRenderer"
+                }
+            },
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.care_plan.v0",
+            "language": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "@class": "CODE_PHRASE",
+                "terminology_id": {
+                    "@class": "TERMINOLOGY_ID",
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "SI"
+            },
+            "category": {
+                "@class": "DV_CODED_TEXT",
+                "value": "persistent",
+                "defining_code": {
+                    "@class": "CODE_PHRASE",
+                    "terminology_id": {
+                        "@class": "TERMINOLOGY_ID",
+                        "value": "openehr"
+                    },
+                    "code_string": "431"
+                }
+            },
+            "composer": {
+                "@class": "PARTY_IDENTIFIED",
+                "name": "info@joostholslag.nl"
+            },
+            "content": [
+                {
+                    "@class": "SECTION",
+                    "name": {
+                        "@class": "DV_TEXT",
+                        "value": "Behandelaanwijzing"
+                    },
+                    "archetype_details": {
+                        "@class": "ARCHETYPED",
+                        "archetype_id": {
+                            "@class": "ARCHETYPE_ID",
+                            "value": "openEHR-EHR-SECTION.adhoc.v1"
+                        },
+                        "rm_version": "1.1.0"
+                    },
+                    "archetype_node_id": "openEHR-EHR-SECTION.adhoc.v1",
+                    "items": [
+                        {
+                            "@class": "EVALUATION",
+                            "name": {
+                                "@class": "DV_TEXT",
+                                "value": "Advance intervention decisions"
+                            },
+                            "archetype_details": {
+                                "@class": "ARCHETYPED",
+                                "archetype_id": {
+                                    "@class": "ARCHETYPE_ID",
+                                    "value": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1"
+                                },
+                                "rm_version": "1.1.0"
+                            },
+                            "archetype_node_id": "openEHR-EHR-EVALUATION.advance_intervention_decisions.v1",
+                            "language": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "ISO_639-1"
+                                },
+                                "code_string": "en"
+                            },
+                            "encoding": {
+                                "@class": "CODE_PHRASE",
+                                "terminology_id": {
+                                    "@class": "TERMINOLOGY_ID",
+                                    "value": "IANA_character-sets"
+                                },
+                                "code_string": "UTF-8"
+                            },
+                            "subject": {
+                                "@class": "PARTY_SELF"
+                            },
+                            "data": {
+                                "@class": "ITEM_TREE",
+                                "name": {
+                                    "@class": "DV_TEXT",
+                                    "value": "Tree"
+                                },
+                                "archetype_node_id": "at0001",
+                                "items": [
+                                    {
+                                        "@class": "ELEMENT",
+                                        "name": {
+                                            "@class": "DV_TEXT",
+                                            "value": "CPR decision"
+                                        },
+                                        "archetype_node_id": "at0009",
+                                        "value": {
+                                            "@class": "DV_CODED_TEXT",
+                                            "value": "Full CPR",
+                                            "defining_code": {
+                                                "@class": "CODE_PHRASE",
+                                                "terminology_id": {
+                                                    "@class": "TERMINOLOGY_ID",
+                                                    "value": "local"
+                                                },
+                                                "code_string": "at0010"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "#1": "9e4ff936-152e-4b05-8369-7afb977f1620"
+    }
+]
