@@ -20,7 +20,7 @@ Joost Holslag (RSO Zuid-Limburg), Marc Nieuwland en Joost Wildenberg (Zorginstit
 ## Stappen
 
 ### 1. Invoer data - reanimatiebeleid op basis van IKNL formulier
-- openEHR Template gevonden dat overeenkomt met het[IKNL-formulier](resources/Formulier_Uniform_vastleggen_proactieve_zorgplanning_richtlijn_Proactieve_Zorgplanning): [Advance Intervention Decisions](https://github.com/openehr-nl/ACP/blob/main/openEHR-EHR-COMPOSITION.care_plan.v0.adl)
+- openEHR Template gevonden dat overeenkomt met het [IKNL-formulier](resources/Formulier_Uniform_vastleggen_proactieve_zorgplanning_richtlijn_Proactieve_Zorgplanning): [Advance Intervention Decisions](https://github.com/openehr-nl/ACP/blob/main/openEHR-EHR-COMPOSITION.care_plan.v0.adl)
 - Op basis van het template een formulier gemaakt (Better). We gebruiken Better omdat je daarmee met een low-code omgeving het formulier kan maken
 
 ![](screenshots/03%20-%20openEHR%20Advanced%20Care%20Directive.png)
