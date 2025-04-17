@@ -50,7 +50,7 @@ Joost Holslag (RSO Zuid-Limburg), Marc Nieuwland en Joost Wildenberg (Zorginstit
 ### 4. Bevragen data - op basis van Semantic Web
 ![](resources/acp%20kik-v%20query.aql)
 
-- [SPARQL query](resoureces/acp%20kik-v%20query.aql)
+- [SPARQL query](resources/acp%20kik-v%20query.aql)
   - a. ‘van hoeveel personen / cliënten /patiënten binnen de organisatie is het reanimatiebeleid vastgelegd?’; en opmerkingen voor vervolgonderzoek: discussie over ‘onbekend’ queryen en wat dat betekent -> vervolgonderzoek?
   - b. ‘wat is de datum van vastlegging van het reanimatiebeleid van de personen /cliënten /patiënten?’  Hiermee wordt bedoeld, de datum waarop de keuze-optie in het formulier voor het laatst gewijzigd is.
   - c. Bonus (als de data-invoer zover is gekomen): ‘bij hoeveel personen /cliënten /patiënten binnen ouderenzorg/intramuraal is het reanimatiebeleid vastgelegd binnen 24 uur na opname?’  
