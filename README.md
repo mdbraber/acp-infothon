@@ -51,9 +51,9 @@ Joost Holslag (RSO Zuid-Limburg), Marc Nieuwland en Joost Wildenberg (Zorginstit
 ![](resources/acp%20kik-v%20query.aql)
 
 - SPARQL query
-  a. ‘van hoeveel personen / cliënten /patiënten binnen de organisatie is het reanimatiebeleid vastgelegd?’; en opmerkingen voor vervolgonderzoek: discussie over ‘onbekend’ queryen en wat dat betekent -> vervolgonderzoek?
-  b. ‘wat is de datum van vastlegging van het reanimatiebeleid van de personen /cliënten /patiënten?’  Hiermee wordt bedoeld, de datum waarop de keuze-optie in het formulier voor het laatst gewijzigd is.
-  c. Bonus (als de data-invoer zover is gekomen): ‘bij hoeveel personen /cliënten /patiënten binnen ouderenzorg/intramuraal is het reanimatiebeleid vastgelegd binnen 24 uur na opname?’  
+  - a. ‘van hoeveel personen / cliënten /patiënten binnen de organisatie is het reanimatiebeleid vastgelegd?’; en opmerkingen voor vervolgonderzoek: discussie over ‘onbekend’ queryen en wat dat betekent -> vervolgonderzoek?
+  - b. ‘wat is de datum van vastlegging van het reanimatiebeleid van de personen /cliënten /patiënten?’  Hiermee wordt bedoeld, de datum waarop de keuze-optie in het formulier voor het laatst gewijzigd is.
+  - c. Bonus (als de data-invoer zover is gekomen): ‘bij hoeveel personen /cliënten /patiënten binnen ouderenzorg/intramuraal is het reanimatiebeleid vastgelegd binnen 24 uur na opname?’  
   _Vraag b en c kun je ook beantwoorden (dat hebben we niet uitgevoerd) als je gebruik maakt van het expliciet veld Last Updated van het archetype  Advanced Intervention Decision gebruik_
   
 ![](screenshots/16%20-%20SPARQL%20query%20ACP.png)
