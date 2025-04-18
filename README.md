@@ -1,4 +1,4 @@
-# Infothon 20-21 maart 2025
+# Infothon ACP 20-21 maart 2025
 
 ## Doel 
 Reanimatiebeleid uit IKNL formulier bevragen met Semantic Web
