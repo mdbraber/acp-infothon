@@ -1,0 +1,852 @@
+{
+  "min": 0,
+  "localizedNamesIncludeVariables": false,
+  "children": [
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "rmType": "GENERIC_DATE_FIELD",
+      "max": 1,
+      "name": "Date",
+      "id": "generic-date_field-8916321",
+      "formId": "generic-date_field-8916321",
+      "alias": "Geboortejaar patiënt/cliënt",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "persistentGeneric": true,
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          },
+          "overrideLabel": true
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {},
+        "field": {
+          "code": {
+            "presentation": "PARTIAL_DATE",
+            "disabled": false,
+            "hidden": false,
+            "readonly": false
+          },
+          "day": {
+            "presentation": null,
+            "disabled": false,
+            "hidden": true,
+            "readonly": false
+          },
+          "month": {
+            "presentation": null,
+            "disabled": false,
+            "hidden": true,
+            "readonly": false
+          }
+        }
+      },
+      "inputs": [
+        {
+          "list": [],
+          "type": "DATE",
+          "validation": {
+            "range": {}
+          }
+        }
+      ],
+      "dateKeyNames": [
+        "year",
+        "month",
+        "day"
+      ],
+      "localizedNames": {
+        "en": "<div>Geboortejaar patiënt/cliënt</div>"
+      },
+      "localizedDescriptions": {
+        "en": null
+      }
+    },
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "rmType": "GENERIC_CODED_TEXT",
+      "max": 1,
+      "name": "Select",
+      "id": "generic-coded_text-5569931",
+      "formId": "generic-coded_text-5569931",
+      "alias": "Geslacht",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "persistentGeneric": true,
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          },
+          "overrideLabel": true
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {},
+        "field": {}
+      },
+      "inputs": [
+        {
+          "list": [
+            {
+              "value": "1d8dc43f-9e5f-491e-8d0a-c7f6d6fb4b16",
+              "label": "Man",
+              "localizedLabels": {
+                "en": "Man"
+              },
+              "localizedDescriptions": {
+                "en": ""
+              },
+              "custom": true
+            },
+            {
+              "value": "6cf4e5c2-31e1-48aa-9d09-39d05d517d3c",
+              "label": "Vrouw",
+              "localizedLabels": {
+                "en": "Vrouw"
+              },
+              "localizedDescriptions": {
+                "en": ""
+              },
+              "custom": true
+            },
+            {
+              "value": "2a900f4a-31d0-42c0-b723-56bb10dc5e56",
+              "label": "Ongedifferentieerd",
+              "localizedLabels": {
+                "en": "Ongedifferentieerd"
+              },
+              "localizedDescriptions": {
+                "en": ""
+              },
+              "custom": true
+            }
+          ],
+          "type": "CODED_TEXT",
+          "suffix": "code"
+        }
+      ],
+      "localizedNames": {
+        "en": "<div>Geslacht</div>"
+      },
+      "localizedDescriptions": {
+        "en": null
+      },
+      "datasource": {
+        "force": false,
+        "source": "",
+        "bindings": {},
+        "pathParameters": {
+          "{codeSystem}": ""
+        }
+      }
+    },
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "rmType": "GENERIC_NUMERIC_FIELD",
+      "max": 1,
+      "name": "Numeric",
+      "id": "generic-numeric_field-7038990",
+      "formId": "generic-numeric_field-7038990",
+      "alias": "BSN",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "persistentGeneric": true,
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          },
+          "overrideLabel": true
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {}
+      },
+      "inputs": [
+        {
+          "list": [],
+          "type": "INTEGER",
+          "validation": {
+            "range": {}
+          }
+        }
+      ],
+      "localizedNames": {
+        "en": "<div>BSN</div>"
+      },
+      "localizedDescriptions": {
+        "en": "BSN"
+      }
+    },
+    {
+      "min": 1,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "id": "intervention",
+      "name": "Intervention",
+      "localizedName": "Intervention",
+      "rmType": "DV_CODED_TEXT",
+      "nodeId": "at0015",
+      "max": 1,
+      "aqlPath": "/content[openEHR-EHR-EVALUATION.advance_intervention_decisions.v1]/data[at0001]/items[at0014]/items[at0015]/value",
+      "formId": "proactieve_zorgplanning/advance_intervention_decisions/per_intervention/intervention",
+      "templateInstance": "8aa7b6eb-bff3-4d3d-9b31-9cbe8acf14a0",
+      "alias": "Intervention",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          }
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {},
+        "field": {
+          "code": {
+            "presentation": "BUTTONGROUP",
+            "columns": 2,
+            "disabled": false,
+            "hidden": false,
+            "readonly": false
+          }
+        }
+      },
+      "localizedNames": {
+        "en": "Intervention"
+      },
+      "localizedDescriptions": {
+        "en": "Name of the possible treatment, procedure or activity."
+      },
+      "inputs": [
+        {
+          "list": [
+            {
+              "value": "305351004",
+              "label": "opname op intensive care",
+              "localizedLabels": {
+                "en": "opname op intensive care"
+              }
+            },
+            {
+              "value": "40617009",
+              "label": "kunstmatige beademing",
+              "localizedLabels": {
+                "en": "kunstmatige beademing"
+              }
+            },
+            {
+              "value": "116762002",
+              "label": "toediening van bloedproduct",
+              "localizedLabels": {
+                "en": "toediening van bloedproduct"
+              }
+            },
+            {
+              "value": "281789004",
+              "label": "antibiotische therapie",
+              "localizedLabels": {
+                "en": "antibiotische therapie"
+              }
+            },
+            {
+              "value": "32485007",
+              "label": "opname in ziekenhuis",
+              "localizedLabels": {
+                "en": "opname in ziekenhuis"
+              }
+            }
+          ],
+          "suffix": "code",
+          "type": "CODED_TEXT",
+          "listOpen": true,
+          "terminology": "http://snomed.info/sct"
+        },
+        {
+          "list": [],
+          "suffix": "other",
+          "type": "TEXT"
+        }
+      ],
+      "datasource": {
+        "force": false,
+        "source": "",
+        "bindings": {},
+        "pathParameters": {
+          "{codeSystem}": "http://snomed.info/sct"
+        }
+      }
+    },
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "id": "behandelbesluit",
+      "name": "Behandelbesluit",
+      "localizedName": "Behandelbesluit",
+      "rmType": "DV_CODED_TEXT",
+      "nodeId": "at0034",
+      "max": 1,
+      "aqlPath": "/content[openEHR-EHR-EVALUATION.advance_intervention_decisions.v1]/data[at0001]/items[at0014]/items[at0034,'Behandelbesluit']/value",
+      "formId": "proactieve_zorgplanning/advance_intervention_decisions/per_intervention/behandelbesluit",
+      "templateInstance": "8aa7b6eb-bff3-4d3d-9b31-9cbe8acf14a0",
+      "alias": "Behandelbesluit",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          }
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {},
+        "field": {
+          "code": {
+            "presentation": "BUTTONGROUP",
+            "columns": 2,
+            "disabled": false,
+            "hidden": false,
+            "readonly": false
+          }
+        }
+      },
+      "localizedNames": {
+        "en": "Behandelbesluit"
+      },
+      "localizedDescriptions": {
+        "en": "Decision about the identified intervention."
+      },
+      "inputs": [
+        {
+          "list": [
+            {
+              "value": "deny",
+              "label": "Opt Out",
+              "localizedLabels": {
+                "en": "Opt Out"
+              }
+            },
+            {
+              "value": "permit",
+              "label": "Opt In",
+              "localizedLabels": {
+                "en": "Opt In"
+              }
+            }
+          ],
+          "suffix": "code",
+          "type": "CODED_TEXT",
+          "terminology": "http://hl7.org/fhir/consent-provision-type"
+        }
+      ],
+      "datasource": {
+        "force": false,
+        "source": "",
+        "bindings": {},
+        "pathParameters": {
+          "{codeSystem}": "http://hl7.org/fhir/consent-provision-type"
+        }
+      }
+    },
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "id": "last_updated",
+      "name": "Last updated",
+      "localizedName": "Last updated",
+      "rmType": "DV_DATE_TIME",
+      "nodeId": "at0055",
+      "max": 1,
+      "aqlPath": "/content[openEHR-EHR-EVALUATION.advance_care_directive.v2]/protocol[at0010]/items[at0055]/value",
+      "formId": "proactieve_zorgplanning/advance_care_directive/last_updated",
+      "templateInstance": "8aa7b6eb-bff3-4d3d-9b31-9cbe8acf14a0",
+      "alias": "Datum van vastlegging",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          },
+          "overrideLabel": true
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {}
+      },
+      "localizedNames": {
+        "en": "<div>Datum van vastlegging</div>"
+      },
+      "localizedDescriptions": {
+        "en": "The date when this advance directive record was last updated."
+      },
+      "inputs": [
+        {
+          "list": [],
+          "type": "DATETIME",
+          "validation": {
+            "range": {}
+          }
+        }
+      ]
+    },
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "id": "belangrijkste_overeengekomen_doel_van_medische_behandeling",
+      "name": "Belangrijkste overeengekomen doel van medische behandeling",
+      "localizedName": "Belangrijkste overeengekomen doel van medische behandeling",
+      "rmType": "DV_CODED_TEXT",
+      "nodeId": "at0002",
+      "max": 1,
+      "aqlPath": "/content[openEHR-EHR-EVALUATION.advance_intervention_decisions.v1]/data[at0001]/items[at0002,'Belangrijkste overeengekomen doel van medische behandeling']/value",
+      "formId": "proactieve_zorgplanning/advance_intervention_decisions/belangrijkste_overeengekomen_doel_van_medische_behandeling",
+      "templateInstance": "8aa7b6eb-bff3-4d3d-9b31-9cbe8acf14a0",
+      "alias": "Belangrijkste overeengekomen doel van medische behandeling",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          }
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {},
+        "field": {
+          "code": {
+            "presentation": "BUTTONGROUP",
+            "columns": 2,
+            "disabled": false,
+            "hidden": false,
+            "readonly": false
+          }
+        }
+      },
+      "localizedNames": {
+        "en": "Belangrijkste overeengekomen doel van medische behandeling"
+      },
+      "localizedDescriptions": {
+        "en": "The overall intent for future care and treatment for the individual."
+      },
+      "inputs": [
+        {
+          "list": [
+            {
+              "value": "at0003",
+              "label": "Curative",
+              "localizedLabels": {
+                "en": "Curative"
+              },
+              "localizedDescriptions": {
+                "en": "The condition is curable; all appropriate life-prolonging treatment will be offered."
+              }
+            },
+            {
+              "value": "at0004",
+              "label": "Restorative",
+              "localizedLabels": {
+                "en": "Restorative"
+              },
+              "localizedDescriptions": {
+                "en": "The condition is treatable with potential for restoration to the previous state of health or a prolonged remission; all appropriate life-prolonging treatment will be offered."
+              }
+            },
+            {
+              "value": "at0005",
+              "label": "Supportive",
+              "localizedLabels": {
+                "en": "Supportive"
+              },
+              "localizedDescriptions": {
+                "en": "The condition is incurable and progressive; active treatment of the underlying disease may be appropriate for specific symptom relief and/or short term life expectancy gains; focused on comfort, quality of life and dignity. Also referred to as 'Palliative'."
+              }
+            },
+            {
+              "value": "at0006",
+              "label": "Terminal",
+              "localizedLabels": {
+                "en": "Terminal"
+              },
+              "localizedDescriptions": {
+                "en": "Life expectancy is short (hours or days); no active treatment of the underlying disease or treatment-related harm; focus on comfort, quality of life and dignity."
+              }
+            },
+            {
+              "value": "at0007",
+              "label": "Unknown",
+              "localizedLabels": {
+                "en": "Unknown"
+              },
+              "localizedDescriptions": {
+                "en": "The intent of care decision is not known."
+              }
+            }
+          ],
+          "suffix": "code",
+          "type": "CODED_TEXT",
+          "listOpen": true
+        },
+        {
+          "list": [],
+          "suffix": "other",
+          "type": "TEXT"
+        }
+      ],
+      "datasource": {
+        "force": false,
+        "source": "",
+        "bindings": {},
+        "pathParameters": {
+          "{codeSystem}": ""
+        }
+      }
+    },
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "id": "cpr_decision",
+      "name": "CPR decision",
+      "localizedName": "CPR decision",
+      "rmType": "DV_CODED_TEXT",
+      "nodeId": "at0009",
+      "max": 1,
+      "aqlPath": "/content[openEHR-EHR-EVALUATION.advance_intervention_decisions.v1]/data[at0001]/items[at0009]/value",
+      "formId": "proactieve_zorgplanning/advance_intervention_decisions/cpr_decision",
+      "templateInstance": "8aa7b6eb-bff3-4d3d-9b31-9cbe8acf14a0",
+      "alias": "Reanimatiebeleid",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          },
+          "overrideLabel": true
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {},
+        "field": {
+          "code": {
+            "presentation": "BUTTONGROUP",
+            "columns": 2,
+            "disabled": false,
+            "hidden": false,
+            "readonly": false
+          }
+        }
+      },
+      "localizedNames": {
+        "en": "<div>Reanimatiebeleid</div>"
+      },
+      "localizedDescriptions": {
+        "en": "Decision about the extent of cardiopulmonary resuscitation (CPR) intervention appropriate for this individual."
+      },
+      "inputs": [
+        {
+          "list": [
+            {
+              "value": "at0010",
+              "label": "Full CPR",
+              "localizedLabels": {
+                "en": "Full CPR"
+              },
+              "localizedDescriptions": {
+                "en": "All appropriate cardiopulmonary resuscitation treatments should be attempted to save or prolong life."
+              }
+            },
+            {
+              "value": "at0011",
+              "label": "Limited CPR",
+              "localizedLabels": {
+                "en": "Limited CPR"
+              },
+              "localizedDescriptions": {
+                "en": "Cardiopulmonary resuscitation treatments should be attempted, as specified in the 'Decisions description' narrative or as structured data in the 'Per intervention' cluster."
+              }
+            },
+            {
+              "value": "at0012",
+              "label": "No CPR",
+              "localizedLabels": {
+                "en": "No CPR"
+              },
+              "localizedDescriptions": {
+                "en": "No cardiopulmonary resuscitation treatments should be attempted to save or prolong life. Also known as 'Do not resuscitate (DNR)'; 'Do not attempt resuscitation (DNAR)'; 'Not for resuscitation (NFR)' or similar."
+              },
+              "termBindings": {
+                "SNOMED-CT": {
+                  "value": "[SNOMED-CT::450476008]",
+                  "terminologyId": "SNOMED-CT"
+                }
+              }
+            },
+            {
+              "value": "at0013",
+              "label": "Unknown",
+              "localizedLabels": {
+                "en": "Unknown"
+              },
+              "localizedDescriptions": {
+                "en": "The CPR decision is not known."
+              }
+            }
+          ],
+          "suffix": "code",
+          "type": "CODED_TEXT",
+          "listOpen": true
+        },
+        {
+          "list": [],
+          "suffix": "other",
+          "type": "TEXT"
+        }
+      ],
+      "datasource": {
+        "force": false,
+        "source": "",
+        "bindings": {},
+        "pathParameters": {
+          "{codeSystem}": ""
+        }
+      }
+    },
+    {
+      "min": 0,
+      "localizedNamesIncludeVariables": false,
+      "children": [],
+      "rmType": "GENERIC_CODED_TEXT",
+      "max": 1,
+      "name": "Select",
+      "id": "generic-coded_text-9297406",
+      "formId": "generic-coded_text-9297406",
+      "alias": "Select",
+      "viewConfig": {
+        "tags": [],
+        "annotations": {},
+        "advanced": {
+          "persistentGeneric": true,
+          "hintText": {
+            "enabled": false,
+            "localizations": {}
+          }
+        },
+        "size": {
+          "label": "INHERIT",
+          "element": "INHERIT"
+        },
+        "layout": {
+          "label": {
+            "align": "inherit"
+          },
+          "field": {
+            "align": "inherit"
+          }
+        },
+        "label": {},
+        "field": {}
+      },
+      "inputs": [
+        {
+          "list": [
+            {
+              "value": "dec4d3c8-e635-49df-bd6e-5265a472b82e",
+              "label": "Ja",
+              "localizedLabels": {
+                "en": "Ja"
+              },
+              "localizedDescriptions": {
+                "en": ""
+              },
+              "custom": true
+            },
+            {
+              "value": "a040c7b5-b19f-4b4b-afd5-1aa4fe787e73",
+              "label": "Nee",
+              "localizedLabels": {
+                "en": "Nee"
+              },
+              "localizedDescriptions": {
+                "en": ""
+              },
+              "custom": true
+            },
+            {
+              "value": "61bdf250-f97c-41fe-a7f7-cdec209591fc",
+              "label": "Anders",
+              "localizedLabels": {
+                "en": "Anders"
+              },
+              "localizedDescriptions": {
+                "en": ""
+              },
+              "custom": true
+            }
+          ],
+          "type": "CODED_TEXT",
+          "suffix": "code"
+        }
+      ],
+      "localizedNames": {
+        "en": "Select"
+      },
+      "localizedDescriptions": {
+        "en": null
+      },
+      "datasource": {
+        "force": false,
+        "source": "",
+        "bindings": {},
+        "pathParameters": {
+          "{codeSystem}": ""
+        }
+      }
+    }
+  ],
+  "docType": "FORM",
+  "formId": "form_root",
+  "name": "form_root",
+  "rmType": "FORM_DEFINITION",
+  "uuid": "57e4aad2-a0f6-4331-8151-c228ca10320b",
+  "fbVersion": "3.14.5",
+  "initialFbVersion": "3.14.5",
+  "defaultLanguage": "en",
+  "viewConfig": {
+    "tags": [],
+    "annotations": {},
+    "advanced": {
+      "hintText": {
+        "enabled": false,
+        "localizations": {}
+      }
+    },
+    "size": {
+      "label": "INHERIT",
+      "element": "COLUMN_12"
+    },
+    "layout": {
+      "label": {
+        "align": "top"
+      },
+      "field": {
+        "align": "inherit"
+      }
+    },
+    "label": {}
+  },
+  "templates": [
+    {
+      "templateId": "Proactieve Zorgplanning",
+      "instance": "8aa7b6eb-bff3-4d3d-9b31-9cbe8acf14a0"
+    }
+  ],
+  "localizedNames": {
+    "en": "form_root"
+  }
+}

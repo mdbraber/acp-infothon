@@ -1,0 +1,37 @@
+[
+  {
+    "col": 1,
+    "row": 1,
+    "width": 12,
+    "height": 2,
+    "children": [
+      {
+        "id": "generic-date_field-8916321"
+      },
+      {
+        "id": "generic-coded_text-5569931"
+      },
+      {
+        "id": "generic-numeric_field-7038990"
+      },
+      {
+        "id": "proactieve_zorgplanning/advance_intervention_decisions/per_intervention/intervention"
+      },
+      {
+        "id": "proactieve_zorgplanning/advance_intervention_decisions/per_intervention/behandelbesluit"
+      },
+      {
+        "id": "proactieve_zorgplanning/advance_care_directive/last_updated"
+      },
+      {
+        "id": "proactieve_zorgplanning/advance_intervention_decisions/belangrijkste_overeengekomen_doel_van_medische_behandeling"
+      },
+      {
+        "id": "proactieve_zorgplanning/advance_intervention_decisions/cpr_decision"
+      },
+      {
+        "id": "generic-coded_text-9297406"
+      }
+    ]
+  }
+]
